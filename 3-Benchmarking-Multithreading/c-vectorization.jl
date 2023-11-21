@@ -1,4 +1,5 @@
 # LoopVectorization is an excellent and aggresive vectorizer
+# which can use the vector unit in the CPU etc.
 
 using LoopVectorization
 
