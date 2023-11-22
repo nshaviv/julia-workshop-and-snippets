@@ -1,4 +1,4 @@
-# No for some math!
+# Now for some math!
 
 a = 1           # a simple assingment statement
 b= 2; c=3       # You can write multiple statements in one line
@@ -156,13 +156,13 @@ sin(😃)
 
 a_long_string = """
 One dark day in the middle of the night,
-Two dead boys got up to fight.
+two dead boys got up to fight.
 Back to back they faced each other,
-Drew their swords and shot each other.
+drew their swords and shot each other.
 A deaf policeman heard the noise,
-He came and shot the two dead boys.
+he came and shot the two dead boys.
 If you don't believe this lie is true,
-Ask the blind man, he saw it too.
+ask the blind man, he saw it too.
 """
 
 # Parsing

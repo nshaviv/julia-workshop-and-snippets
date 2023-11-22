@@ -39,23 +39,20 @@ println("The velocity is $(res.v) and the time is $(res.t)")
 mutable struct coor2D
     x::Float64
     y::Float64
+    coor2D() = new(0.0,0.0)  # This is optional, to define a default value
 end
 
 nt=coor2D(0.3,0.4)
 nt.x = 0.5
 nt.y = 0.6
 
-# You can also define a mutable structure with a default value:
-mutable struct coor2D
-    x::Float64
-    y::Float64
-    coor2D() = new(0.0,0.0)
-end
-
+# a new coor2D with the default values
 nt=coor2D()
 
 # You can define operations, such as +, -, *, /, etc. for your own structures
+# Be defualt basic operations are not defined for your own structures, you have to expose them.
 import Base: +, -, *, /, ^, ==
+# Now we can add our definitions, for example:
 +(a::coor2D, b::coor2D) = coor2D(a.x+b.x, a.y+b.y)
 -(a::coor2D, b::coor2D) = coor2D(a.x-b.x, a.y-b.y)
 *(a::coor2D, b::coor2D) = coor2D(a.x*b.x, a.y*b.y)

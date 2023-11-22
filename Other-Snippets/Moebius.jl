@@ -32,5 +32,3 @@ for i in 1:4m
 end
 
 current_figure()
-
-Point3f(1,2,3)
