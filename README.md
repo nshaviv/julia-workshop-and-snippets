@@ -1,4 +1,4 @@
-# Julia workshop and snippets
+### Julia workshop and snippets
 
 This is material used for an intro workshop for scientists that took place in Nov 2023, 
 intended for the astro group at the Hebrew University. 
