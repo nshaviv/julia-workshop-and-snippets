@@ -1,9 +1,9 @@
+### A few links relevant for anyone starting with Julia
 
-A comparison between julia and numpy:
-https://www.matecdev.com/posts/numpy-julia-fortran.html
+Julia tutorials:
+https://julialang.org/learning/tutorials/
 
-Julia for scientists book (an intro to computing):
-https://benlauwens.github.io/ThinkJulia.jl/latest/book.html#_unicode_input
-
-cheatsheets: 
+Cheatsheets: 
 https://www.juliafordatascience.com/cheat-sheets/
+
+
