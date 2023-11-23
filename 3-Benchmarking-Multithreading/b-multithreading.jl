@@ -40,6 +40,14 @@ end
     println(s[1:4])
 end
 
-
-
-
+# Note that in many cases, there is no need to use multithreading
+# because the underlying libray is already multithreaded.
+# For example, the following inv function is already multithreaded,
+# as can be seen if you run `top` in a terminal while running the code.
+a = rand(3000,3000)
+for _ in 1:100
+    inv(a)
+end
+# As you can see, LinearAlgebra library uses BLAS, which is multithreaded.
+using LinearAlgebra
+LinearAlgebra.versioninfo()

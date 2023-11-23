@@ -1,4 +1,4 @@
-cd("Example-machine-learning")
+cd("7-Example-machine-learning")
 using Pkg; Pkg.activate(".") # I had a clash between Flux and another package I used. The easiest was to activate a local environment  
 #Pkg.add("Flux")
 #Pkg.add("Plots")
